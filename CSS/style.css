@@ -8,5 +8,223 @@
 @font-face {
     font-family: 'Red Hat Display';
     src: url('../fonts/RedHatDisplay-Black.ttf');
-    font-weight: 800;
+    font-weight: 900;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.logo {
+    margin: 48px 0 54px;
+    width: 119px;
+    height: 28px;
+}
+
+.hero-tablet {
+    width: 414px;
+    height: 153px;
+}
+
+.header-content {
+    margin: 48px 24px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    color: #28283D;
+    margin-bottom: 24px;
+}
+
+header p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #87879D;
+    margin-bottom: 32px;
+}
+
+button {
+    font-weight: 900;
+    color: #FFF;
+    font-size: 16px;
+    height: 58px;
+    border-radius: 29px;
+}
+
+header button {
+    margin-bottom: 16px;
+}
+
+.btn-download {
+    width: 193px;
+    background-color: #4D96A9;
+}
+
+.btn-download span {
+    color: #8FE3F9;
+}
+
+.btn-what {
+    background-color: #855FB1;
+    width: 139px;
+}
+
+/*Article one*/
+
+.number-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.number-line {
+    background-color: rgba(135, 135, 157, 0.25);
+    height: 84px;
+    width: 1px;
+}
+
+.number-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border: rgba(135, 135, 157, 0.25) 1px solid;
+    border-radius: 29px;
+    background-color: #FAFAFA;
+}
+
+.number {
+    font-weight: 900;
+    color: #87879D;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.img-container {
+    width: 327px;
+    height: 310px;
+    margin: 64px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.img-container img {
+    width: 151px;
+    height: 143px;
+    border-radius: 8px;
+}
+
+.one-content {
+    margin: 64px 24px;
+    text-align: center;
+}
+
+.overline {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4D96A9;
+}
+
+.one h2 {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #28283D;
+    margin: 24px 0 32px;
+}
+
+.one-info {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #87879D;
+}
+
+/*Article two*/
+
+.two {
+    position: relative;
+}
+
+.two-img-container {
+    background-color: #4D96A9;
+    position: absolute;
+    top: 112px;
+    left: 0;
+}
+
+.two img {
+    opacity: 0.1;
+    width: 100%;
+}
+
+.two-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 64px 24px 72px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.two h2 {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FAFAFA;
+}
+
+.two-info {
+    margin: 24px 0 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FAFAFA;
+}
+
+.two button {
+    background-color: #855FB1;
+    width: 193px;
+    height: 58px;
+}
+
+.two button span {
+    color: #D9B8FF;
 }
