@@ -176,7 +176,11 @@ header button {
     color: #87879D;
 }
 
-/*Article two*/
+.no-wrap {
+    white-space: nowrap;
+}
+
+/*Article Two*/
 
 .two {
     position: relative;
@@ -335,6 +339,7 @@ header button {
         overflow: hidden;
         justify-content: center;
         height: 358px;
+        margin-bottom: 110px;
     }
 
     .hero-desktop {
@@ -372,5 +377,35 @@ header button {
         margin-right: 16px;
     }
 
-    
+    /*Article One*/
+
+    .img-container {
+        width: 1110px;
+        height: 242px;
+        margin: 64px auto 80px;
+    }
+
+    .img-container img {
+        width: 255px;
+        height: 242px;
+    }
+
+    .one-content {
+        margin: 80px auto 72px;
+        width: 540px;
+    }
+
+    .one h2 {
+        font-size: 40px;
+        line-height: 44px;
+        margin: 16px auto 32px;
+        width: 445px;
+    }
+
+    .one-info {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    /*Article Two*/
 }
