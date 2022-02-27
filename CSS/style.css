@@ -4,11 +4,13 @@
     font-family: 'Red Hat Display';
     src: url('../fonts/RedHatDisplay-Medium.ttf');
     font-weight: 500;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Red Hat Display';
     src: url('../fonts/RedHatDisplay-Black.ttf');
     font-weight: 900;
+    font-display: swap;
 }
 
 * {
@@ -210,6 +212,11 @@ footer .img-container {
 footer img {
     opacity: 0.1;
     width: 100%;
+}
+
+.footer-img-tablet {
+    width: 768px;
+    height: 428px;
 }
 
 footer .content {
