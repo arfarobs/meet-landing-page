@@ -30,10 +30,10 @@ body {
 
 header {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
     overflow: hidden;
     text-align: center;
+    flex-direction: column;
 }
 
 .logo {
@@ -50,8 +50,8 @@ header {
 .header-content {
     margin: 48px 24px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1 {
@@ -134,7 +134,7 @@ header button {
 .img-container {
     width: 327px;
     height: 310px;
-    margin: 64px 24px;
+    margin: 64px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -148,8 +148,9 @@ header button {
 }
 
 .one-content {
-    margin: 64px 24px;
+    margin: 64px auto;
     text-align: center;
+    width: 327px;
 }
 
 .overline {
@@ -184,6 +185,9 @@ header button {
 
 .two {
     position: relative;
+    margin: auto;
+    max-height: 540px;
+    overflow: hidden;
 }
 
 .two-img-container {
@@ -233,13 +237,17 @@ header button {
     color: #D9B8FF;
 }
 
-@media only screen and (max-width: 379px) {
+@media only screen and (max-width: 767px) {
     .two-img-tablet {
         display: none;
     }
 
     .hero-desktop {
         display: none;
+    }
+
+    header p {
+        width: 327px;
     }
 }
 
@@ -260,6 +268,7 @@ header button {
     }
 
     .header-content {
+        width: 457px;
         margin: 72px 155px 80px 156px;
     }
 
@@ -279,7 +288,7 @@ header button {
     /*Article One*/
 
     .img-container {
-        margin: 67px 40px 48px;
+        margin: 67px auto 48px;
         width: 689px;
         height: 156px;
     }
@@ -290,7 +299,8 @@ header button {
     }
 
     .one-content {
-        margin: 48px 98px 80px;
+        width: 563px;
+        margin: 48px auto 80px;
     }
 
     .one h2 {
@@ -302,7 +312,15 @@ header button {
 
     /*Article Two*/
 
+    .two {
+        width: 769px;
+    }
+
     .two-img-mobile {
+        display: none;
+    }
+
+    .two-img-desktop {
         display: none;
     }
 
@@ -408,4 +426,34 @@ header button {
     }
 
     /*Article Two*/
+
+    .two {
+        width: 1440px;
+    }
+
+    .two-img-mobile, .two-img-tablet {
+        display: none;
+    }
+
+    .two-content {
+        margin: 88px auto 104px;
+        width: 1110px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .two h2, .two-info {
+        text-align: start;
+    }
+
+    .two h2 {
+        font-size: 40px;
+        line-height: 44px;
+        width: 350px;
+    }
+
+    .two-info {
+        width: 350px;
+        margin: 0 92px 0 125px;
+    }
 }
