@@ -78,6 +78,11 @@ button {
     border-radius: 29px;
 }
 
+button {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
 header button {
     margin-bottom: 16px;
 }
@@ -87,6 +92,10 @@ header button {
     background-color: #4D96A9;
 }
 
+.btn-download:hover, .btn-download:focus-visible {
+    background-color: #71C0D4;
+}
+
 .btn-download span {
     color: #8FE3F9;
 }
@@ -94,6 +103,10 @@ header button {
 .btn-what {
     background-color: #855FB1;
     width: 139px;
+}
+
+.btn-what:hover, .btn-what:focus-visible, footer button:hover, footer button:focus-visible {
+    background-color: #B18BDD;
 }
 
 /*Article*/
