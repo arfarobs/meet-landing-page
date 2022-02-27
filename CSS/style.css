@@ -422,7 +422,7 @@ footer button span {
     }
 
     article .img-container img {
-        width: 255px;
+        min-width: 255px;
         height: 242px;
     }
 
