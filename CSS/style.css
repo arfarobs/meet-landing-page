@@ -96,7 +96,7 @@ header button {
     width: 139px;
 }
 
-/*Article One*/
+/*Article*/
 
 .number-container {
     display: flex;
@@ -131,7 +131,7 @@ header button {
     line-height: 26px;
 }
 
-.img-container {
+article .img-container {
     width: 327px;
     height: 310px;
     margin: 64px auto;
@@ -141,13 +141,13 @@ header button {
     align-content: space-between;
 }
 
-.img-container img {
+article .img-container img {
     width: 151px;
     height: 143px;
     border-radius: 8px;
 }
 
-.one-content {
+article .content {
     margin: 64px auto;
     text-align: center;
     width: 327px;
@@ -162,7 +162,7 @@ header button {
     color: #4D96A9;
 }
 
-.one h2 {
+article h2 {
     font-weight: 900;
     font-size: 32px;
     line-height: 36px;
@@ -170,7 +170,7 @@ header button {
     margin: 24px 0 32px;
 }
 
-.one-info {
+article .info {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -181,28 +181,28 @@ header button {
     white-space: nowrap;
 }
 
-/*Article Two*/
+/*Footer*/
 
-.two {
+footer {
     position: relative;
     margin: auto;
     max-height: 540px;
     overflow: hidden;
 }
 
-.two-img-container {
+footer .img-container {
     background-color: #4D96A9;
     position: absolute;
     top: 112px;
     left: 0;
 }
 
-.two img {
+footer img {
     opacity: 0.1;
     width: 100%;
 }
 
-.two-content {
+footer .content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -212,14 +212,14 @@ header button {
     z-index: 1;
 }
 
-.two h2 {
+footer h2 {
     font-weight: 900;
     font-size: 32px;
     line-height: 36px;
     color: #FAFAFA;
 }
 
-.two-info {
+footer .info {
     margin: 24px 0 32px;
     font-weight: 500;
     font-size: 18px;
@@ -227,18 +227,18 @@ header button {
     color: #FAFAFA;
 }
 
-.two button {
+footer button {
     background-color: #855FB1;
     width: 193px;
     height: 58px;
 }
 
-.two button span {
+footer button span {
     color: #D9B8FF;
 }
 
 @media only screen and (max-width: 767px) {
-    .two-img-tablet {
+    .footer-img-tablet {
         display: none;
     }
 
@@ -285,56 +285,56 @@ header button {
         margin-right: 16px;
     }
 
-    /*Article One*/
+    /*Article*/
 
-    .img-container {
+    article .img-container {
         margin: 67px auto 48px;
         width: 689px;
         height: 156px;
     }
 
-    .img-container img {
+    article .img-container img {
         width: 164;
         height: 156;
     }
 
-    .one-content {
+    article .content {
         width: 563px;
         margin: 48px auto 80px;
     }
 
-    .one h2 {
+    article h2 {
         font-size: 40px;
         line-height: 44px;
         margin: 16px auto 32px;
         width: 445px;
     }
 
-    /*Article Two*/
+    /*Footer*/
 
-    .two {
+    footer {
         width: 769px;
     }
 
-    .two-img-mobile {
+    .footer-img-mobile {
         display: none;
     }
 
-    .two-img-desktop {
+    .footer-img-desktop {
         display: none;
     }
 
-    .two-content {
+    footer .content {
         margin: 64px 98px 66px;
     }
 
-    .two h2 {
+    footer h2 {
         font-size: 40px;
         line-height: 44px;
         width: 457px;
     }
 
-    .two-info {
+    footer .info {
         margin: 32px 0 40px;
     }
 }
@@ -395,64 +395,64 @@ header button {
         margin-right: 16px;
     }
 
-    /*Article One*/
+    /*Article*/
 
-    .img-container {
+    article .img-container {
         width: 1110px;
         height: 242px;
         margin: 64px auto 80px;
     }
 
-    .img-container img {
+    article .img-container img {
         width: 255px;
         height: 242px;
     }
 
-    .one-content {
+    article .content {
         margin: 80px auto 72px;
         width: 540px;
     }
 
-    .one h2 {
+    article h2 {
         font-size: 40px;
         line-height: 44px;
         margin: 16px auto 32px;
         width: 445px;
     }
 
-    .one-info {
+    article .info {
         font-size: 18px;
         line-height: 26px;
     }
 
-    /*Article Two*/
+    /*Footer*/
 
-    .two {
+    footer {
         width: 1440px;
     }
 
-    .two-img-mobile, .two-img-tablet {
+    .footer-img-mobile, .footer-img-tablet {
         display: none;
     }
 
-    .two-content {
+    footer .content {
         margin: 88px auto 104px;
         width: 1110px;
         justify-content: space-between;
         align-items: center;
     }
 
-    .two h2, .two-info {
+    footer h2, footer .info {
         text-align: start;
     }
 
-    .two h2 {
+    footer h2 {
         font-size: 40px;
         line-height: 44px;
         width: 350px;
     }
 
-    .two-info {
+    footer .info {
         width: 350px;
         margin: 0 92px 0 125px;
     }
