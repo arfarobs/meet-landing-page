@@ -22,10 +22,11 @@
     font-size: 100%;
     vertical-align: baseline;
     font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: 0px;
 }
 
 body {
-    background-color: #F2F2F2;
+    background-color: #FAFAFA;
 }
 
 /*Header*/
@@ -169,7 +170,7 @@ article .content {
     font-weight: 900;
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: 4px;
+    letter-spacing: 4px !important;
     text-transform: uppercase;
     color: #4D96A9;
 }
@@ -370,7 +371,7 @@ footer button span {
     .header-container-desktop {
         display: flex;
         position: relative;
-        width: 1504px;
+        width: 1440px;
         overflow: hidden;
         justify-content: center;
         height: 358px;
